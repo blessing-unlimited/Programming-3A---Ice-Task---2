@@ -1,0 +1,84 @@
+@using Microsoft.AspNetCore.Mvc.Rendering
+@model List<IceTask_Two.Models.Contract>
+@{
+    ViewData["Title"] = "Contracts";
+    int? selStatus = ViewBag.SelectedStatus as int?;
+    int? selClientId = ViewBag.SelectedClientId as int?;
+    string searchVal = ViewBag.Search as string ?? "";
+    var clientItems = ViewBag.ClientList as SelectList;
+}
+
+<h1>Contracts</h1>
+
+<p>
+    <a class="btn btn-primary" asp-action="Create">New contract</a>
+</p>
+
+<form asp-action="Index" method="get" class="row g-2 mb-3 border rounded p-3 bg-light">
+    <div class="col-md-4">
+        <label class="form-label">Search (title or description)</label>
+        <input class="form-control" type="text" name="search" value="@searchVal" placeholder="Type part of a title..." />
+    </div>
+    <div class="col-md-3">
+        <label class="form-label">Status</label>
+        <select class="form-select" name="status">
+            <option value="">All statuses</option>
+            <!option value="0" @(selStatus == 0 ? "selected" : null)>Draft</!option>
+            <!option value="1" @(selStatus == 1 ? "selected" : null)>Active</!option>
+            <!option value="2" @(selStatus == 2 ? "selected" : null)>Expired</!option>
+            <!option value="3" @(selStatus == 3 ? "selected" : null)>OnHold</!option>
+        </select>
+    </div>
+    <div class="col-md-3">
+        <label class="form-label">Client</label>
+        <select class="form-select" name="clientId">
+            <!option value="" @(!selClientId.HasValue || selClientId.Value <= 0 ? "selected" : null)>All clients</!option>
+            @if (clientItems != null)
+            {
+                foreach (var opt in clientItems)
+                {
+                    <!option value="@opt.Value" @(opt.Selected ? "selected" : null)>@opt.Text</!option>
+                }
+            }
+        </select>
+    </div>
+    <div class="col-md-2 d-flex align-items-end gap-2">
+        <button type="submit" class="btn btn-primary w-100">Apply</button>
+    </div>
+    <div class="col-12">
+        <a asp-action="Index" class="btn btn-link p-0">Clear filters</a>
+    </div>
+</form>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Client</th>
+            <th>Status</th>
+            <th>Ends</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.Count == 0)
+        {
+            <tr>
+                <td colspan="5" class="text-muted">No contracts match your filters.</td>
+            </tr>
+        }
+        else
+        {
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Title</td>
+                    <td>@(item.Client != null ? item.Client.Name : "")</td>
+                    <td>@item.Status</td>
+                    <td>@item.EndDate.ToString("yyyy-MM-dd")</td>
+                    <td><a asp-action="Details" asp-route-id="@item.Id">Open</a></td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>

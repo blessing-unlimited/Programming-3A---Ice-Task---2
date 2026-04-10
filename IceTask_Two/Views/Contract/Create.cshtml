@@ -1,0 +1,34 @@
+@{
+    ViewData["Title"] = "New contract";
+}
+
+<h1>New contract</h1>
+
+<form asp-action="Create" method="post">
+    <div class="mb-3">
+        <label class="form-label">Title</label>
+        <input class="form-control" name="title" value="@ViewData["title"]" />
+        <span class="text-danger">@Html.ValidationMessage("title")</span>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Description</label>
+        <textarea class="form-control" name="description" rows="3"></textarea>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Client</label>
+        <select class="form-select" name="clientId" asp-items="ViewBag.ClientId">
+            <option value="">-- choose --</option>
+        </select>
+        <span class="text-danger">@Html.ValidationMessage("clientId")</span>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Start date</label>
+        <input class="form-control" type="date" name="startDate" value="@DateTime.Today.ToString("yyyy-MM-dd")" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">End date</label>
+        <input class="form-control" type="date" name="endDate" value="@DateTime.Today.AddYears(1).ToString("yyyy-MM-dd")" />
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a class="btn btn-secondary" asp-action="Index">Cancel</a>
+</form>

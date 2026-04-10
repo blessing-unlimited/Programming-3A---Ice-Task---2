@@ -1,0 +1,174 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Dell\\Documents\\Varsity (2026)\\PROG7311\\Projects\\IceTask_Two\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6209ED90-433E-4FF1-8CD4-779CEC070A1F}|IceTask_Two\\ContractCentral.csproj|c:\\users\\dell\\documents\\varsity (2026)\\prog7311\\projects\\icetask_two\\icetask_two\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6209ED90-433E-4FF1-8CD4-779CEC070A1F}|IceTask_Two\\ContractCentral.csproj|solutionrelative:icetask_two\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6209ED90-433E-4FF1-8CD4-779CEC070A1F}|IceTask_Two\\ContractCentral.csproj|c:\\users\\dell\\documents\\varsity (2026)\\prog7311\\projects\\icetask_two\\icetask_two\\views\\client\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6209ED90-433E-4FF1-8CD4-779CEC070A1F}|IceTask_Two\\ContractCentral.csproj|solutionrelative:icetask_two\\views\\client\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6209ED90-433E-4FF1-8CD4-779CEC070A1F}|IceTask_Two\\ContractCentral.csproj|c:\\users\\dell\\documents\\varsity (2026)\\prog7311\\projects\\icetask_two\\icetask_two\\views\\client\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6209ED90-433E-4FF1-8CD4-779CEC070A1F}|IceTask_Two\\ContractCentral.csproj|solutionrelative:icetask_two\\views\\client\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6209ED90-433E-4FF1-8CD4-779CEC070A1F}|IceTask_Two\\ContractCentral.csproj|c:\\users\\dell\\documents\\varsity (2026)\\prog7311\\projects\\icetask_two\\icetask_two\\views\\client\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6209ED90-433E-4FF1-8CD4-779CEC070A1F}|IceTask_Two\\ContractCentral.csproj|solutionrelative:icetask_two\\views\\client\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6209ED90-433E-4FF1-8CD4-779CEC070A1F}|IceTask_Two\\ContractCentral.csproj|c:\\users\\dell\\documents\\varsity (2026)\\prog7311\\projects\\icetask_two\\icetask_two\\views\\client\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6209ED90-433E-4FF1-8CD4-779CEC070A1F}|IceTask_Two\\ContractCentral.csproj|solutionrelative:icetask_two\\views\\client\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6209ED90-433E-4FF1-8CD4-779CEC070A1F}|IceTask_Two\\ContractCentral.csproj|c:\\users\\dell\\documents\\varsity (2026)\\prog7311\\projects\\icetask_two\\icetask_two\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6209ED90-433E-4FF1-8CD4-779CEC070A1F}|IceTask_Two\\ContractCentral.csproj|solutionrelative:icetask_two\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6209ED90-433E-4FF1-8CD4-779CEC070A1F}|IceTask_Two\\ContractCentral.csproj|c:\\users\\dell\\documents\\varsity (2026)\\prog7311\\projects\\icetask_two\\icetask_two\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6209ED90-433E-4FF1-8CD4-779CEC070A1F}|IceTask_Two\\ContractCentral.csproj|solutionrelative:icetask_two\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6209ED90-433E-4FF1-8CD4-779CEC070A1F}|IceTask_Two\\ContractCentral.csproj|c:\\users\\dell\\documents\\varsity (2026)\\prog7311\\projects\\icetask_two\\icetask_two\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6209ED90-433E-4FF1-8CD4-779CEC070A1F}|IceTask_Two\\ContractCentral.csproj|solutionrelative:icetask_two\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\Varsity (2026)\\PROG7311\\Projects\\IceTask_Two\\IceTask_Two\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "IceTask_Two\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\Varsity (2026)\\PROG7311\\Projects\\IceTask_Two\\IceTask_Two\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "IceTask_Two\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-10T20:03:38.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\Varsity (2026)\\PROG7311\\Projects\\IceTask_Two\\IceTask_Two\\Views\\Client\\Index.cshtml",
+              "RelativeDocumentMoniker": "IceTask_Two\\Views\\Client\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\Varsity (2026)\\PROG7311\\Projects\\IceTask_Two\\IceTask_Two\\Views\\Client\\Index.cshtml",
+              "RelativeToolTip": "IceTask_Two\\Views\\Client\\Index.cshtml",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-10T20:03:31.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\Varsity (2026)\\PROG7311\\Projects\\IceTask_Two\\IceTask_Two\\Views\\Client\\Edit.cshtml",
+              "RelativeDocumentMoniker": "IceTask_Two\\Views\\Client\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\Varsity (2026)\\PROG7311\\Projects\\IceTask_Two\\IceTask_Two\\Views\\Client\\Edit.cshtml",
+              "RelativeToolTip": "IceTask_Two\\Views\\Client\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-10T20:03:30.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\Varsity (2026)\\PROG7311\\Projects\\IceTask_Two\\IceTask_Two\\Views\\Client\\Create.cshtml",
+              "RelativeDocumentMoniker": "IceTask_Two\\Views\\Client\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\Varsity (2026)\\PROG7311\\Projects\\IceTask_Two\\IceTask_Two\\Views\\Client\\Create.cshtml",
+              "RelativeToolTip": "IceTask_Two\\Views\\Client\\Create.cshtml",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-10T20:03:25.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\Varsity (2026)\\PROG7311\\Projects\\IceTask_Two\\IceTask_Two\\Views\\Client\\Delete.cshtml",
+              "RelativeDocumentMoniker": "IceTask_Two\\Views\\Client\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\Varsity (2026)\\PROG7311\\Projects\\IceTask_Two\\IceTask_Two\\Views\\Client\\Delete.cshtml",
+              "RelativeToolTip": "IceTask_Two\\Views\\Client\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-10T20:01:56.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\Varsity (2026)\\PROG7311\\Projects\\IceTask_Two\\IceTask_Two\\Models\\Client.cs",
+              "RelativeDocumentMoniker": "IceTask_Two\\Models\\Client.cs",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\Varsity (2026)\\PROG7311\\Projects\\IceTask_Two\\IceTask_Two\\Models\\Client.cs",
+              "RelativeToolTip": "IceTask_Two\\Models\\Client.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T19:41:41.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\Varsity (2026)\\PROG7311\\Projects\\IceTask_Two\\IceTask_Two\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "IceTask_Two\\Models\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\Varsity (2026)\\PROG7311\\Projects\\IceTask_Two\\IceTask_Two\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "IceTask_Two\\Models\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T19:41:09.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\Varsity (2026)\\PROG7311\\Projects\\IceTask_Two\\IceTask_Two\\Program.cs",
+              "RelativeDocumentMoniker": "IceTask_Two\\Program.cs",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\Varsity (2026)\\PROG7311\\Projects\\IceTask_Two\\IceTask_Two\\Program.cs",
+              "RelativeToolTip": "IceTask_Two\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T19:26:36.28Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 452,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
